@@ -17,7 +17,7 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -43,5 +43,5 @@
     "gh-pages": "^5.0.0",
     "http-proxy-middleware": "^0.19.1"
   },
-  "homepage": "http://sangbinnam.github.io/index.html"
+  "homepage": "."
 }
